@@ -1,0 +1,6 @@
+include sysendian.h
+include insecure_memzero.h
+include sha256.h
+include yespower-ref.c
+include yespower-platform.c
+include yespower.h
