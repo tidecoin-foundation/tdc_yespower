@@ -3,10 +3,10 @@
 
 static PyObject *yespower_getpowhash(PyObject *self, PyObject *args)
 {
-    Py_ssize_t *output;
-    Py_ssize_t *value;
+    char *output;
+    PyObject *value;
 #if PY_MAJOR_VERSION >= 3
-    Py_ssize_t *input;
+    PyBytesObject *input;
 #else
     PyStringObject *input;
 #endif
