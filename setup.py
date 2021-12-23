@@ -10,7 +10,7 @@ tdc_yespower_module = Extension('tdc_yespower',
                             include_dirs=['.'])
 
 setup (name = 'tdc_yespower',
-       version = '0.1',
+       version = '1.0.0',
        author_email = 'tidecoins@protonmail.com',
        author = 'yarsawyer',
        url = 'https://github.com/yarsawyer/tdc_yespower',
